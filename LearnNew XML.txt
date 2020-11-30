@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "no" ?>
+<LearnNew>
+<home>
+<course_categories>
+	<module1>IT Development</module1>
+	<module2>Web Design</module2>
+	<module3>Drawing</module3>
+	<module4>Social Media</module4>
+	<module5>Photoshop</module5>
+	<module6>Information Security</module6>
+</course_categories>
+<favourite_course>
+	<module1>Category</module1>
+	<module2>CourseName</module2>
+	<module3>CourseLevel</module3>
+	<module4>CourseDuration</module4>
+</favourite_course>
+<contact_info>
+	<module1>XYZ Road</module1>
+	<module2>Madurai,TN</module2>
+	<module3>learnnew@gmail.com</module3>
+</contact_info>
+</home>
+</LearnNew>

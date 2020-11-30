@@ -1,0 +1,46 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT LearnNew (home)>
+<!ATTLIST LearnNew
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT home (course_categories,favourite_course,contact_info)>
+<!ATTLIST home
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT course_categories (module1,module2,module3,module4,module5,
+                             module6)>
+<!ATTLIST course_categories
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT favourite_course (module1,module2,module3,module4)>
+<!ATTLIST favourite_course
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT contact_info (module1,module2,module3)>
+<!ATTLIST contact_info
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT module5 (#PCDATA)>
+<!ATTLIST module5
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT module6 (#PCDATA)>
+<!ATTLIST module6
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT module1 (#PCDATA)>
+<!ATTLIST module1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT module2 (#PCDATA)>
+<!ATTLIST module2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT module3 (#PCDATA)>
+<!ATTLIST module3
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT module4 (#PCDATA)>
+<!ATTLIST module4
+  xmlns CDATA #FIXED ''>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="*">
+	<xsl:copy>
+		<xsl:apply-templates select="@*|node()" />
+	</xsl:copy>
+</xsl:template>
+<xsl:template match="@*|text()|comment()|processing-instruction()">
+	<xsl:copy-of select="." />
+</xsl:template>
+<xsl:template match="/LearnNew/home/course_categories/module1"> </xsl:template>
+<xsl:template match="/LearnNew/home/course_categories/module2"> </xsl:template>
+<xsl:template match="/LearnNew/home/course_categories/module3"> </xsl:template>
+<xsl:template match="/LearnNew/home/course_categories/module4"> </xsl:template>
+<xsl:template match="/LearnNew/home/course_categories/module5"> </xsl:template>
+<xsl:template match="/LearnNew/home/course_categories/module6"> </xsl:template>
+<xsl:template match="/LearnNew/home/favourite_course/module1"> </xsl:template>
+<xsl:template match="/LearnNew/home/favourite_course/module2"> </xsl:template>
+<xsl:template match="/LearnNew/home/favourite_course/module3"> </xsl:template>
+<xsl:template match="/LearnNew/home/favourite_course/module4"> </xsl:template>
+<xsl:template match="/LearnNew/home/contact_info/module1"> </xsl:template>
+<xsl:template match="/LearnNew/home/contact_info/module2"> </xsl:template>
+<xsl:template match="/LearnNew/home/contact_info/module3"> </xsl:template>
+</xsl:stylesheet>

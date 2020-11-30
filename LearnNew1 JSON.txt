@@ -1,0 +1,21 @@
+{
+   "aboutus": {
+      "about_us": {
+         "module1": "Created on: october 2020",
+         "module2": "Name: LearnNew organisation",
+         "module3": "Learning platform: LEARNNEW ORGANISATION",
+         "module4": "E-Certificates Will be Provided"
+      },
+      "bottom": {
+         "module1": "Engineering",
+         "module2": "WebDevelopment",
+         "module3": "Security",
+         "module4": []
+      },
+      "contact_info": {
+         "module1": "XYZ Road",
+         "module2": "Madurai,TN",
+         "module3": "learnnew@gmail.com"
+      }
+   }
+}

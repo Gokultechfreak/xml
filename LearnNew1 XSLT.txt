@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0"   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+<LearnNew>
+<aboutus>
+<xsl:for-each select="/LearnNew/aboutus/about_us">
+<about_us>
+<module1>
+<xsl:value-of   select="./module1"/>
+</module1>
+<module2>
+<xsl:value-of   select="./module2"/>
+</module2>
+<module3>
+<xsl:value-of   select="./module3"/>
+</module3>
+<module4>
+<xsl:value-of   select="./module4"/>
+</module4>
+</about_us>
+</xsl:for-each>
+<bottom>
+<module1>
+<xsl:value-of   select="/LearnNew/aboutus/bottom/module1"/>
+</module1>
+<module2>
+<xsl:value-of   select="/LearnNew/aboutus/bottom/module2"/>
+</module2>
+<module3>
+<xsl:value-of   select="/LearnNew/aboutus/bottom/module3"/>
+</module3>
+<module4>
+<xsl:value-of   select="/LearnNew/aboutus/bottom/module4"/>
+</module4>
+</bottom>
+<contact_info>
+<module1>
+<xsl:value-of   select="/LearnNew/aboutus/contact_info/module1"/>
+</module1>
+<module2>
+<xsl:value-of   select="/LearnNew/aboutus/contact_info/module2"/>
+</module2>
+<module3>
+<xsl:value-of   select="/LearnNew/aboutus/contact_info/module3"/>
+</module3>
+</contact_info>
+</aboutus>
+</LearnNew>
+</xsl:template>
+</xsl:stylesheet>

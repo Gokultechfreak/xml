@@ -1,0 +1,23 @@
+{
+   "home": {
+      "course_categories": {
+         "module1": "IT Development",
+         "module2": "Web Design",
+         "module3": "Drawing",
+         "module4": "Social Media",
+         "module5": "Photoshop",
+         "module6": "Information Security"
+      },
+      "favourite_course": {
+         "module1": "Category",
+         "module2": "CourseName",
+         "module3": "CourseLevel",
+         "module4": "CourseDuration"
+      },
+      "contact_info": {
+         "module1": "XYZ Road",
+         "module2": "Madurai,TN",
+         "module3": "learnnew@gmail.com"
+      }
+   }
+}

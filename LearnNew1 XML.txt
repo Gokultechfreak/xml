@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "no" ?>
+<LearnNew>
+<aboutus>
+<about_us>
+	<module1>Created on: october 2020</module1>
+	<module2>Name: LearnNew organisation</module2>
+	<module3>Learning platform: LEARNNEW ORGANISATION</module3>
+	<module4>E-Certificates Will be Provided</module4>
+</about_us>
+<bottom>
+	<module1>Engineering</module1>
+	<module2>WebDevelopment</module2>
+	<module3>Security</module3>
+	<module4></module4>
+</bottom>
+<contact_info>
+	<module1>XYZ Road</module1>
+	<module2>Madurai,TN</module2>
+	<module3>learnnew@gmail.com</module3>
+</contact_info>
+</aboutus>
+</LearnNew>
